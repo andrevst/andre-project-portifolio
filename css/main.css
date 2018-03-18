@@ -1,0 +1,26 @@
+html,body,{
+      font-family: 'Quicksand', sans-serif;
+  }
+  h1,h2,h4,h6 {
+      color: #2d3c49;
+    }
+.udacity-logo{
+    max-width: 56px;
+    max-height: 56px;
+    vertical-align: top;
+}
+@media (max-width: 652px){
+    .udacity-logo{
+        max-width: 36px;
+        max-height:36px;
+    }
+    h4{
+        font-size: 0.55rem;
+    }
+}
+hr{
+    margin-top: 1vh;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #7d97ad;
+}
