@@ -1,6 +1,9 @@
-html,body,{
-      font-family: 'Quicksand', sans-serif;
-  }
+body{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
   h1,h2,h4,h6 {
       color: #2d3c49;
     }
@@ -24,12 +27,16 @@ hr{
     border: 0;
     border-top: 1px solid #7d97ad;
 }
+
 .card {
   height: 100%;
 }
 
+.work {
+  flex: 1;
+}
 footer{
-    height: 20vh;
+    height: 200px;
     color:#7d97ad;
 }
 .footer-icon{
