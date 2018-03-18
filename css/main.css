@@ -28,3 +28,10 @@ hr{
   height: 100%;
 }
 
+footer{
+    height: 20vh;
+    color:#7d97ad;
+}
+.footer-icon{
+    color:#7d97ad;
+}
