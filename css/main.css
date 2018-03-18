@@ -24,3 +24,7 @@ hr{
     border: 0;
     border-top: 1px solid #7d97ad;
 }
+.card {
+  height: 100%;
+}
+
